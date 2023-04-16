@@ -1,5 +1,5 @@
 # XY6020L-Modbus
-How to use the Modbus Interface of XY6020L **Digital Programmable Power Supply Module**  
+How to use the Modbus Interface of **XY6020L Digital Programmable Power Supply Module**  
 
 
 Since I couldn't find any documentation on the net, I've compiled this [document](./doc/XY6020L-Modbus-Interface.pdf) with the necessary information to make use of the serial interface and Modbus protocol.  
