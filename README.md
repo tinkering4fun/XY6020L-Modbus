@@ -1,7 +1,8 @@
 # XY6020L-Modbus
 How to use the Modbus Interface of XY6020L **Digital Programmable Power Supply Module**  
 
-Since I couldn't find any documentation on the net, I've compiled the necessary information to be able to use the serial interface which supports the Modbus protocol.  
+
+Since I couldn't find any documentation on the net, I've compiled this [document](./doc/XY6020L-Modbus-Interface.pdf) with the necessary information to make use of the serial interface and Modbus protocol.  
 The module is basically very similar to the DPS5020, but supports a slightly different Modbus register set.  
 The data sheet promises an input voltage range of up to 70V and an output capabilty up to **60V** and max. **20A**.
 
