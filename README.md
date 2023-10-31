@@ -13,11 +13,14 @@ Additionally it has a timer measuring the output 'on' time, and counters for cum
 Thus the module would be an ideal candidate for battery charging or solarpanel tracking projects and experiments.  
 
 Unfortunately I observed a severe **issue with the transition from CC to CV mode**.  
-While battery charging, the module sometimes fails to lower the output current when battery reaches CV voltage level.  
-Seems the regulator is somehow locked in CC mode while output (battery) voltage raises until OVP is triggered.  
+While battery charging, the module sometimes fails to reduce the charging current when battery reaches the programmed CV voltage level.  
+Looks like the regulator is locked in CC mode and the output (battery) voltage raises way above the CV voltage.  
 
 This is imho a dangerous malfunction and I cannot recommend to use it for battery charging.  
-You have been warned ...
+You have been warned ...  
+
+==> If somebody knows how to contact the manufacturer of this interesting module, please give me a note.  
+==> I would like to report the issue, and ask for a firmware update etc.
 
 [Here](./res/Wiring_400.png) is a detailed picture of the wiring to a Modbus adapter (HW-519).  
 Of course, such an adapter is only requried for a real Modbus setup. The interface will also work on plain TTL level, e.g. to talk with an MCU.
